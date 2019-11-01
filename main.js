@@ -14,7 +14,7 @@ let score = 0;
 
 let ballX = canvas.width / 2;
 let ballY = canvas.height / 2;
-let speedBallX = 5;
+let speedBallX = 0;
 let speedBallY = 5;
 const ballRadius = 10;
 
@@ -24,7 +24,7 @@ const PADDLE_WIDTH = 100;
 const PADDLE_HEIGHT = 10;
 const PADDLE_FROM_BOTTOM = 60;
 const PADDLE_SPEED = 25;
-let paddleX = 400;
+let paddleX = (canvas.width / 2) - PADDLE_WIDTH / 2;
 let paddleY = canvas.height - PADDLE_FROM_BOTTOM;
 
 // Bricks settings
