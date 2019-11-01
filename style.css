@@ -1,8 +1,13 @@
+@font-face {
+    font-family: 'sabo';
+    src: url(/font/Sabo_Font/Sabo-Filled.otf);
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Sabo;
+    font-family: sabo;
 }
 
 body {
